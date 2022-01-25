@@ -1,5 +1,7 @@
 import styles from './layout.module.css'
 import Head from 'next/head'
+import NavBar from '../components/navbar'
+import Footer from './footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -11,9 +13,9 @@ function Layout({ children }: LayoutProps) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>Header</div>
+      <NavBar></NavBar>
       <main>{children}</main>
-      <div>Footer</div>
+      <Footer></Footer>
     </div>
 
   )

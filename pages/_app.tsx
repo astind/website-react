@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/bulma.sass'
 import type { AppProps } from 'next/app'
 import Layout from '../components/layout'
 
