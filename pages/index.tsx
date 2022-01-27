@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             </a>
           </Link>
           
-          <Link href="/Contact">
+          <Link href="/contact">
             <a className={styles.card}>
               <h2>Links &rarr;</h2>
               <p>
