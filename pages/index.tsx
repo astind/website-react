@@ -5,20 +5,20 @@ import styles from '../styles/style.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Astin.dev</title>
         <meta name="description" content="astin.dev homepage" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to astin.dev
-        </h1>
+      <div className='hero is-large'>
+        <div className='hero-body'>
+          <h1 className='title'>Welcome to astin.dev</h1>
+          <p className='subtitle'>Software Developer</p>
+        </div>
+      </div>
 
-        <p className={styles.description}>
-          Work in progress personal website
-        </p>
+      <main className={styles.main}>
 
         <div className={styles.grid}>
           <Link href="/about">
