@@ -25,7 +25,7 @@ const Resume: NextPage = () => {
             <p>Brigham Young University</p>
             <span>Aug 2012 – Dec 2018</span>
           </div>
-          <div className="message-body">
+          <div className="message-body has-text-black">
             <strong>B.S. of Computer Science</strong>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Resume: NextPage = () => {
             <p>Arizona State Univeristy</p>
             <span>Aug 2020 – Present</span>
           </div>
-          <div className="message-body">
+          <div className="message-body has-text-black">
             <strong>Masters of Computer Science</strong>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Resume: NextPage = () => {
             <p>Altamira Technologies Corporation</p>
             <span>May 2017 – Present</span>
           </div>
-          <div className="message-body">
+          <div className="message-body has-text-black">
             <p><strong>Software Engineer</strong></p>
             <div className="content">
               <ul className="content">
