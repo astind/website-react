@@ -9,50 +9,55 @@ const Resume: NextPage = () => {
         <title>Resume</title>
         <meta name="description" content="astin.dev resume" />
       </Head>
+
       <section className="hero is-small">
         <div className="hero-body">
-          <p className="title">Resume</p>
+          <h1 className="title">Resume</h1>
           <p className="subtitle">Education and Work History</p>
         </div>
       </section>
+
       <section className="section">
         <h2 className="title">Education</h2>
 
-        <div className="block">
-          <div className="message">
-            <header className="message-header">
-              <p>Brigham Young University</p>
-            </header>
-            <div className="message-body">
-              B.S. of Computer Science
-            </div>
+        <div className="message is-info">
+          <div className="message-header">
+            <p>Brigham Young University</p>
+            <span>Aug 2012 – Dec 2018</span>
+          </div>
+          <div className="message-body">
+            <strong>B.S. of Computer Science</strong>
           </div>
         </div>
 
-        <div className="block">
-          <div className="message">
-            <div className="message-header">
-              <p>Arizona State University</p>
-            </div>
-            <div className="message-body">
-              Masters of Computer Science
-            </div>
+        <div className="message is-info">
+          <div className="message-header">
+            <p>Arizona State Univeristy</p>
+            <span>Aug 2020 – Present</span>
+          </div>
+          <div className="message-body">
+            <strong>Masters of Computer Science</strong>
           </div>
         </div>
 
       </section>
-      
-      <section className="section">
-        <h2 className="title">Work</h2>
 
-        <div className="block">
-          <div className="message">
-            <div className="message-header">
-              <p>Altamira Technolgies Corporation</p>
+      <section className="section">
+        <h2 className="title">Professional Work</h2>
+
+        <div className="message is-info">
+          <div className="message-header">
+            <p>Altamira Technologies Corporation</p>
+            <span>May 2017 – Present</span>
+          </div>
+          <div className="message-body">
+            <p><strong>Software Engineer</strong></p>
+            <div className="content">
+              <ul className="content">
+                <li>Test</li>
+              </ul>
             </div>
-            <div className="message-body">
-              Software Engineer
-            </div>
+
           </div>
         </div>
 

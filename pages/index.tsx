@@ -11,10 +11,16 @@ const Home: NextPage = () => {
         <meta name="description" content="astin.dev homepage" />
       </Head>
 
-      <div className='hero is-large'>
+      <div className='hero has-background-info is-medium is-bold'>
         <div className='hero-body'>
-          <h1 className='title'>Welcome to astin.dev</h1>
-          <p className='subtitle'>Software Developer</p>
+          <div className='container has-text-centered'>
+            <h1 className='title'>
+              Welcome to astin.dev
+            </h1>
+            <h2 className='subtitle'>
+              My name is Dillon Astin, and I'm a software engineer
+            </h2>
+          </div>
         </div>
       </div>
 

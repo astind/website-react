@@ -5,12 +5,12 @@ import { FaGithub } from 'react-icons/fa';
 const NavBar = () => {
 
   return (
-    <nav className="navbar is-dark" role="navigation" aria-label='main navigation'>
+    <nav className="navbar is-info" role="navigation" aria-label='main navigation'>
 
       <div className="navbar-brand">
         <Image src="/test-logo.png" alt="astin.dev logo" width={76} height={51}></Image>
         <div className='navbar-item'>astin.dev</div>
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="appnav">
+        <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="appnav">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
