@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 const NavBar = () => {
 
   return (
-    <nav className="navbar is-info" role="navigation" aria-label='main navigation'>
+    <nav className="navbar" role="navigation" aria-label='main navigation'>
 
       <div className="navbar-brand">
         <Image src="/test-logo.png" alt="astin.dev logo" width={76} height={51}></Image>
@@ -24,8 +24,8 @@ const NavBar = () => {
             <a className="navbar-item">Home</a>
           </Link>
 
-          <Link href="/about">
-            <a className="navbar-item">About</a>
+          <Link href="/contact">
+            <a className="navbar-item">Contact</a>
           </Link>
 
           <div className='navbar-item has-dropdown is-hoverable'>
@@ -36,9 +36,6 @@ const NavBar = () => {
               </Link>
               <Link href='/portfolio'>
                 <a className='navbar-item'>Portfolio</a>
-              </Link>
-              <Link href="/contact">
-                <a className="navbar-item">Contact</a>
               </Link>
             </div>
           </div>

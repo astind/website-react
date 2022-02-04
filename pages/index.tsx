@@ -11,58 +11,68 @@ const Home: NextPage = () => {
         <meta name="description" content="astin.dev homepage" />
       </Head>
 
-      <div className='hero has-background-info is-medium is-bold'>
+      <div className='hero is-small has-background-light'>
         <div className='hero-body'>
-          <div className='container has-text-centered'>
-            <h1 className='title'>
-              Welcome to astin.dev
-            </h1>
-            <h2 className='subtitle'>
-              My name is Dillon Astin, and I'm a software engineer
-            </h2>
+          <div className='columns'>
+            <div className='column'></div>
+            <div className='column is-half is-flex'>
+              <div className='is-flex is-flex-grow-1 is-flex-direction-column is-justify-content-center'>
+                <span className='title is-1 has-text-primary'>
+                  Welcome to astin.dev
+                </span>
+                <span className='subtitle is-3 has-text-primary'>
+                  My name is Dillon Astin, and I'm a software engineer
+                </span>
+              </div>
+            </div>
+            <div className='column'>
+              <figure className='image is-4by5'>
+                <img src="" alt="picture of me" />
+              </figure>
+            </div>
           </div>
+
         </div>
       </div>
 
 
       <div className='section'>
-        <div className='tile is-ancestor'>
-          <Link href="/about">
-            <a className='tile is-parent'>
-              <div className='tile is-child box'>
-                <div className='title'>About Me</div>
-                <div className='content'>
-                  <p>Learn more about me.</p>
-                </div>
-              </div>
-            </a>
-          </Link>
+        <div className='columns'>
+
           <Link href="/resume">
-            <a className='tile is-parent'>
-              <div className='tile is-child box'>
-                <div className='title'>Resume</div>
-                <div className='content'>
-                  <p>My education and professional work experence.</p>
+            <a className='column'>
+            <div className='box has-background-primary'>
+                <div className='is-flex'>
+                  <span className='is-size-2 s-box'>Resume</span>
+                  <div className='is-flex is-align-items-center is-flex-grow-1'>
+                    <div className='is-size-6'>My education and professional work experience</div>
+                  </div>
                 </div>
               </div>
             </a>
           </Link>
+
           <Link href="/portfolio">
-            <a className='tile is-parent'>
-              <div className='tile is-child box'>
-                <div className='title'>Portfolio</div>
-                <div className='content'>
-                  <p>Check out personal projects I am working on.</p>
+            <a className='column'>
+              <div className='box has-background-primary'>
+                <div className='is-flex'>
+                  <span className='is-size-2 s-box'>Portfolio</span>
+                  <div className='is-flex is-align-items-center is-flex-grow-1'>
+                    <div className='is-size-6'>Check out personal projects I have working on</div>
+                  </div>
                 </div>
               </div>
             </a>
           </Link>
+
           <Link href="/contact">
-            <a className='tile is-parent'>
-              <div className='tile is-child box'>
-                <div className='title'>Contact</div>
-                <div className='content'>
-                  <p>Contact info, and links to my other pages.</p>
+            <a className='column'>
+            <div className='box has-background-primary'>
+                <div className='is-flex'>
+                  <span className='is-size-2 s-box'>Contact</span>
+                  <div className='is-flex is-align-items-center is-flex-grow-1'>
+                    <div className='is-size-6'>Contact info, and links to my other pages</div>
+                  </div>
                 </div>
               </div>
             </a>
@@ -70,42 +80,36 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-
-      <main className={styles.main}>
-
-        <div className={styles.grid}>
-          <Link href="/about">
-            <a className={styles.card}>
-              <h2>About Me &rarr;</h2>
-              <p>Personal info that I'm okay sharing</p>
-            </a>
-          </Link>
-
-          <Link href="/resume">
-            <a className={styles.card}>
-              <h2>Resume &rarr;</h2>
-              <p>Education and Professional Work Experence</p>
-            </a>
-          </Link>
-
-          <Link href="/portfolio">
-            <a className={styles.card}>
-              <h2>Portfolio &rarr;</h2>
-              <p>Check out personal project I have been working on.</p>
-            </a>
-          </Link>
-
-          <Link href="/contact">
-            <a className={styles.card}>
-              <h2>Links &rarr;</h2>
+      <div className='section'>
+        <div className='columns is-vcentered is-centered'>
+          <div className='column'>
+            <div className='container has-text-centered is-size-1'>About Me</div>
+          </div>
+          <div className='column is-flex'>
+            {/* add image here */}
+            <figure className='image is-square'>
+              <img src="" alt="family pic" />
+            </figure>
+          </div>
+          <div className='column is-half is-felx'>
+            <div className='about-box'>
               <p>
-                Contact info, and links to my other pages.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-            </a>
-          </Link>
-
+            </div>
+          </div>
         </div>
-      </main>
+      </div>
+
+      <style jsx>{`
+        .about-box {
+          padding-right: 150px;
+        }
+        .s-box {
+          margin-right: 40px;
+        }
+      `}</style>
+
     </div>
   )
 }
