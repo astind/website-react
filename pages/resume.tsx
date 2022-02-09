@@ -94,7 +94,7 @@ const Resume: NextPage = () => {
                   <li>Full-Stack Developer</li>
                   <li>Lead front-end developer for a USAF software system web app using Angular</li>
                   <li>Responsible for primary UI/UX design for me team</li>
-                  <li>Build multiple REST API's in Node.js and Python</li>
+                  <li>Build multiple REST API&apos;s in Node.js and Python</li>
                   <li>Microservice architecture</li>
                   <li>Agile Workflow</li>
                 </ul>
@@ -139,7 +139,7 @@ const Resume: NextPage = () => {
               <p><strong>Back-end</strong></p>
               <div className="content">
                 <ul>
-                  <li>API's experience in Node.js and Python</li>
+                  <li>API&apos;s experience in Node.js and Python</li>
                   <li>Database experience with PostgreSQL, and Elasticsearch</li>
                 </ul>
               </div>

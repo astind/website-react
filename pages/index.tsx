@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/style.module.css'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -21,13 +22,13 @@ const Home: NextPage = () => {
                   Welcome to astin.dev
                 </span>
                 <span className='subtitle is-3 has-text-primary'>
-                  My name is Dillon Astin, and I'm a software engineer
+                  My name is Dillon Astin, and I&apos;m a software engineer
                 </span>
               </div>
             </div>
             <div className='column'>
               <figure className='image is-4by5'>
-                <img src="" alt="picture of me" />
+                <Image src="" alt="picture of me" />
               </figure>
             </div>
           </div>
@@ -88,7 +89,7 @@ const Home: NextPage = () => {
           <div className='column is-flex'>
             {/* add image here */}
             <figure className='image is-square'>
-              <img src="" alt="family pic" />
+              <Image src="" alt="family pic" />
             </figure>
           </div>
           <div className='column is-half is-felx'>
