@@ -24,12 +24,12 @@ const Resume: NextPage = () => {
             </div>
             <div className="column level">
               <div className="level-right">
-                <button className="button is-info">
+                <a className="button is-info" href="https://drive.google.com/file/d/1F5kTNFJOjdK_4dyXkwHqvwDZrAMgN6jY/view?usp=sharing">
                   <span className="icon">
                     <FaFileDownload></FaFileDownload>
                   </span>
                   <span>Download</span>
-                </button>
+                </a>
               </div>
 
             </div>
@@ -93,7 +93,7 @@ const Resume: NextPage = () => {
                 <ul className="content">
                   <li>Full-Stack Developer</li>
                   <li>Lead front-end developer for a USAF software system web app using Angular</li>
-                  <li>Responsible for primary UI/UX design for me team</li>
+                  <li>Responsible for primary UI/UX design for my team</li>
                   <li>Build multiple REST API&apos;s in Node.js and Python</li>
                   <li>Microservice architecture</li>
                   <li>Agile Workflow</li>
@@ -216,12 +216,12 @@ const Resume: NextPage = () => {
       </div>
 
       <div className="section has-text-centered">
-        <button className="button is-large is-info">
+        <a className="button is-large is-info" href="https://drive.google.com/file/d/1F5kTNFJOjdK_4dyXkwHqvwDZrAMgN6jY/view?usp=sharing">
           <span className="icon is-medium">
             <FaRegFileAlt></FaRegFileAlt>
           </span>
           <span>Download Resume</span>
-        </button>
+        </a>
       </div>
 
       <div className="block"></div>

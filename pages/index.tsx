@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             </div>
             <div className='column'>
               <figure className='image is-4by5'>
-                <Image src="" alt="picture of me" />
+                <Image src="test.png" alt="picture of me" />
               </figure>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           <div className='column is-flex'>
             {/* add image here */}
             <figure className='image is-square'>
-              <Image src="" alt="family pic" />
+              <Image src="test.png" alt="family pic" />
             </figure>
           </div>
           <div className='column is-half is-felx'>

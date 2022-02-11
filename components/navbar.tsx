@@ -4,20 +4,25 @@ import { FaGithub } from 'react-icons/fa';
 
 const NavBar = () => {
 
+
+  const openMenu = () => {
+    document.querySelector('.navbar-menu')?.classList.toggle("is-active");
+  }
+
   return (
     <nav className="navbar" role="navigation" aria-label='main navigation'>
 
       <div className="navbar-brand">
         <Image src="/test-logo.png" alt="astin.dev logo" width={76} height={51}></Image>
         <div className='navbar-item'>astin.dev</div>
-        <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="appnav">
+        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navmenu" onClick={openMenu}>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
 
-      <div id="appnav" className="navbar-menu">
+      <div id="navmenu" className="navbar-menu">
 
         <div className='navbar-end'>
           <Link href="/">
