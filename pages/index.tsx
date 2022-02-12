@@ -94,7 +94,7 @@ const Home: NextPage = () => {
           <div className='column is-half is-felx'>
             <div className='about-box'>
               <p>
-                My name is Dillon Astin, and I'm a Full-Stack Developer from Ohio. I enjoy web and server development. I currently specialize in Angular front-ends and Node.js back-ends.
+                My name is Dillon Astin, and I&apos;m a Full-Stack Developer from Ohio. I enjoy web and server development. I currently specialize in Angular front-ends and Node.js back-ends.
                 In my free time I enjoy spending time with my family, being outdoors, and teaching myself HTML5 game development. I have a beautiful wife and two dogs
               </p>
             </div>
