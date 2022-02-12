@@ -1,5 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import { FaGithub } from 'react-icons/fa';
+
 
 
 const Portfolio: NextPage = () => {
@@ -16,11 +18,21 @@ const Portfolio: NextPage = () => {
           </div>
         </div>
       </section>
-      <div className="container">
+      <div className="container bd-height">
         <section className="section has-text-centered">
-          <p>This part of the website it currently a Work in Progress!<br></br>
-             Please check back later for more content!
+          <p className="block">
+            This part of the website it currently a Work in Progress!<br></br>
+            Please check back later for more content!
           </p>
+          <p className="block">
+            In the mean time feel free to check out my github page. Which includes the code used for this website (written in React)
+          </p>
+          <a href="https://github.com/astind" className="button is-medium is-success">
+            <span className="icon is-medium">
+              <FaGithub></FaGithub>
+            </span>
+            <span>GitHub Page</span>
+          </a>
         </section>
       </div>
 

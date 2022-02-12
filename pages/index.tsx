@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/style.module.css'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -16,7 +15,7 @@ const Home: NextPage = () => {
         <div className='hero-body'>
           <div className='columns'>
             <div className='column'></div>
-            <div className='column is-half is-flex'>
+            <div className='column is-two-fifths is-flex'>
               <div className='is-flex is-flex-grow-1 is-flex-direction-column is-justify-content-center'>
                 <span className='title is-1 has-text-primary'>
                   Welcome to astin.dev
@@ -27,8 +26,8 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className='column'>
-              <figure className='image is-4by5'>
-                <Image src="test.png" alt="picture of me" />
+              <figure className='image is-3by4'>
+                <Image src="/homephoto.png" alt="picture of me" layout='fill'/>
               </figure>
             </div>
           </div>
@@ -83,19 +82,20 @@ const Home: NextPage = () => {
 
       <div className='section'>
         <div className='columns is-vcentered is-centered'>
-          <div className='column'>
+          <div className='column is-one-fifth'>
             <div className='container has-text-centered is-size-1'>About Me</div>
           </div>
-          <div className='column is-flex'>
+          <div className='column'>
             {/* add image here */}
-            <figure className='image is-square'>
-              <Image src="test.png" alt="family pic" />
+            <figure className='image is-4by5'>
+              <Image src="/family.jpg" alt="family pic" layout='fill'/>
             </figure>
           </div>
           <div className='column is-half is-felx'>
             <div className='about-box'>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                My name is Dillon Astin, and I'm a Full-Stack Developer from Ohio. I enjoy web and server development. I currently specialize in Angular front-ends and Node.js back-ends.
+                In my free time I enjoy spending time with my family, being outdoors, and teaching myself HTML5 game development. I have a beautiful wife and two dogs
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
 
       <style jsx>{`
         .about-box {
-          padding-right: 150px;
+          padding: 40px;
         }
         .s-box {
           margin-right: 40px;

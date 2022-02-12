@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const NavBar = () => {
 
@@ -48,6 +48,12 @@ const NavBar = () => {
           <a className='navbar-item' href='https://github.com/astind'>
             <span className='icon'>
               <FaGithub></FaGithub>
+            </span>
+          </a>
+
+          <a className='navbar-item' href='https://www.linkedin.com/in/dillon-astin/'>
+            <span className='icon'>
+              <FaLinkedin></FaLinkedin>
             </span>
           </a>
 
