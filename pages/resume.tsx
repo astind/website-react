@@ -24,7 +24,7 @@ const Resume: NextPage = () => {
             </div>
             <div className="column level">
               <div className="level-right">
-                <a className="button is-info" href="https://drive.google.com/file/d/1Aaxe0gGedvB-4dZsDGwrliZMXocyZ5XW/view?usp=sharing">
+                <a className="button is-info" href="https://drive.google.com/file/d/1Q8IBheyQMT_QDwvjkbgjBODXMJlzhYdO/view?usp=sharing">
                   <span className="icon">
                     <FaFileDownload></FaFileDownload>
                   </span>
@@ -216,7 +216,7 @@ const Resume: NextPage = () => {
       </div>
 
       <div className="section has-text-centered">
-        <a className="button is-large is-info" href="https://drive.google.com/file/d/1Aaxe0gGedvB-4dZsDGwrliZMXocyZ5XW/view?usp=sharing">
+        <a className="button is-large is-info" href="https://drive.google.com/file/d/1Q8IBheyQMT_QDwvjkbgjBODXMJlzhYdO/view?usp=sharing">
           <span className="icon is-medium">
             <FaRegFileAlt></FaRegFileAlt>
           </span>
